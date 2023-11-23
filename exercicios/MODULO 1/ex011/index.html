@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador.</p>
+    <picture>
+        <!--Max-width = largura maxima-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        
+        <!--Se o navegador estiver abaixo de 750px ira mostrar foto-p.png-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <!--Lembre de definir o tipo da imagem em "type"-->
+
+        <!--Se o navegador estiver abaixo de 1050px ira mostrar foto-g.png-->
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+        <!--A imagem padrão/original sera foto-g-->
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!-- MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/cabelos_arco_iris.mp3" type="audio/mpeg">
+        <source src="midia/cabelos_arco_iris.ogg" type="audio/ogg">
+        <source src="midia/cabelos_arco_iris.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/cabelos_arco_iris.mp3">Clique aqui para baixar o arquivo MP3 </a></p>
+
+    </audio>
+</body>
+
+</html>
+<source media="(min-width: )" srcset="" type="image/">

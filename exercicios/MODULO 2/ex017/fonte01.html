@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+    
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */  
+
+            /*font-size: 16px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;*/
+
+            /* weight, width, height */
+            /* Peso das fontes: lighter normal bold bolder */
+        }
+        
+        h1{
+       
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            text-decoration: underline;
+            */
+            font: italic bolder 3em 'Work Sans', Arial, Helvetica, sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans', Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem nihil nesciunt debitis praesentium iste est et itaque voluptas repudiandae consequatur id laboriosam numquam magnam, recusandae harum nemo esse unde? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt esse repellat mollitia optio pariatur veniam sequi illo magni, deleniti sed numquam assumenda voluptatum eveniet dolorem debitis laborum? Corporis, officia quis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cumque debitis? In eum iure porro rem, perferendis nisi tempore fuga magni recusandae, aliquid a architecto alias excepturi rerum! Iste, ipsum.</p>
+</body>
+</html>
