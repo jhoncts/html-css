@@ -34,7 +34,7 @@ body {
 
 main a::after {
     content: '\00A0\🔗';
-}   
+}
 
 header {
     background-image: linear-gradient(to bottom, var(--roxo-claro), var(--roxo-escuro), var(--preto));
@@ -52,7 +52,7 @@ header>h1 {
     font-weight: normal;
 }
 
-header > p {
+header>p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: var(--branca);
@@ -71,7 +71,7 @@ nav {
     text-align: center;
 }
 
-nav > a {
+nav>a {
     color: #b6a8d4;
     padding: 10px;
     border-radius: 5px;
@@ -80,7 +80,7 @@ nav > a {
     transition-duration: 0.5s;
 }
 
-nav > a:hover {
+nav>a:hover {
     background-color: var(--roxo-claro);
     color: var(--roxo-escuro);
 }
@@ -114,7 +114,7 @@ main h2 {
     text-indent: 8px;
 }
 
-main p{
+main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -159,7 +159,7 @@ div.video {
     position: relative;
 }
 
-div.video > iframe {
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -174,7 +174,7 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.473);
 }
 
-aside > h3 {
+aside>h3 {
     background-color: var(--roxo-escuro);
     color: var(--branca);
     padding: 10px;
@@ -182,7 +182,7 @@ aside > h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
@@ -196,13 +196,13 @@ footer {
     padding: 5px;
 }
 
-footer > p > a {
+footer>p>a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: var(--amarelo);
 }
