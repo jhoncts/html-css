@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Teste</title>
     <style>
-        div#dentro {
-            ...
-            transform: translate(-50, -50%);
-            ...
+        body {
+            background-color: blueviolet;
+        }
+
+        h1 {
+            background-color: rgb(35, 11, 58);
+            color: bisque;
+            text-align: center;
+        }
+
+        #kalebe {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #video {
+            margin-top: 3vh;
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
 
 <body>
-    <div id="fora">
-        <div id="dentro">
-
-        </div>
+    <h1>Kalebe macaco</h1>
+    <div id="kalebe">
+        <img src="https://i.pinimg.com/originals/02/7d/fb/027dfb10883f56d2c0b3c5254e70f4fa.jpg"
+            alt="kalebe">
+    </div>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PHvhOPM_5ak?si=PC7k1TdVjX3Np85c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </body>
 
